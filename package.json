@@ -1,0 +1,32 @@
+{
+  "name": "learn_rollup",
+  "version": "1.0.0",
+  "description": "learn rollup",
+  "main": "dist/add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "serve dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongmaoxiao/learn_rollup.git"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hongmaoxiao/learn_rollup/issues"
+  },
+  "homepage": "https://github.com/hongmaoxiao/learn_rollup#readme",
+  "devDependencies": {
+    "rollup": "^0.51.5",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "dependencies": {
+    "serve": "^6.4.1"
+  }
+}
