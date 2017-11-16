@@ -1,0 +1,1 @@
+{"version":3,"file":"now.js","sources":["../src/maths.js"],"sourcesContent":["export default class Now {\n  constructor() {\n    this.x = 1;\n    this.y = 2;\n  }\n\n  add() {\n    return this.x + this.y;\n  }\n\n  minus() {\n    return this.x - this.y;\n  }\n}\n"],"names":["x","y","this"],"mappings":"qjBAESA,EAAI,OACJC,EAAI,iDAIFC,KAAKF,EAAIE,KAAKD,yCAIdC,KAAKF,EAAIE,KAAKD"}

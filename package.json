@@ -9,14 +9,11 @@
     "dev": "rollup -c -w",
     "start": "serve dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hongmaoxiao/learn_rollup.git"
-  },
+  "repository": "git+https://github.com/hongmaoxiao/learn_rollup.git",
   "keywords": [
     "rollup"
   ],
-  "author": "",
+  "author": "Xiaomao <fxm@autoforce.net>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hongmaoxiao/learn_rollup/issues"

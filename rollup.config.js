@@ -6,8 +6,9 @@ const production = !process.env.ROLLUP_WATCH;
 export default {
   input: 'src/main.js',
   output: {
-    file: 'dist/add.js',
-    format: 'umd'
+    file: 'dist/now.js',
+    format: 'umd',
+    name: 'Now'
   },
   plugins: [
     babel({
