@@ -1,4 +1,5 @@
 import uglify from 'rollup-plugin-uglify';
+import babel from 'rollup-plugin-babel';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -9,6 +10,9 @@ export default {
     format: 'umd'
   },
   plugins: [
+    babel({
+      exclude: 'node_modules/**'
+    }),
     production && uglify()
   ],
   sourcemap: true
